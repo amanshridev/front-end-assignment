@@ -1,0 +1,8 @@
+@mixin flex($backgroundColor, $fontColor) {
+    display: flex;
+    justify-content: space-between;
+    background: $backgroundColor;
+    color: $fontColor;
+}
+
+$fontsColor: #ffffff;
