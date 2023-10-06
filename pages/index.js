@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
+import "../styles/_variable.scss";
 
 const Home = () => {
-    return (
+  return (
     <div>
-        <h1>Hey</h1>
+      <Header />
+      <div>
+      here are body
+      </div>
+      <Footer />
     </div>
   );
 };

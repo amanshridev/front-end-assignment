@@ -1,0 +1,19 @@
+@import '../../styles/_variable.scss';
+
+.header{
+   @include flex(red, white);
+   font-size: 20px;
+   .nav-bar{
+    width: 30%;
+    .nav-list{
+        @include flex(transparent, white);
+        .nav-item{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: $fontsColor;
+            }
+        }
+    }
+   }
+}
